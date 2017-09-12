@@ -14,7 +14,7 @@ function Picture(wid,time){
 	var length=oBox.clientWidth/iWidth;
 
 	for(let i=0;i<length;i++){	
-		oBox.innerHTML+='<li class="ss"><span class="surface" style="backgroundImage: url(./img/1.png);"></span><span class="surface"></span><span class="surface"></span><span class="surface"></span><span class="side left"></span><span class="side right"></span></li>';
+		oBox.innerHTML+='<li class="ss"><span class="surface" style="background-image: url(./img/1.png);"></span><span class="surface" style="background-image: url(./img/1.png);"></span><span class="surface" style="background-image: url(./img/1.png);"></span><span class="surface"></span><span class="side left"></span><span class="side right"></span></li>';
 
 		oCss.innerHTML+="#pic_box li:nth-of-type("+(i+1)+") span{ background-position:-"+i*iWidth+"px 0; left :"+i*iWidth+"px} ";
 
